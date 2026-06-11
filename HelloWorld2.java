@@ -13,6 +13,7 @@ public class HelloWorld2 {
        List<String> ddd = new ArrayList<String>();
        ddd.add("田中");
        ddd.add("鈴木");
+       ddd.add("遠藤");
        System.out.println(ddd);
    }
 
