@@ -1,9 +1,11 @@
-// クラスの定義
+//Histtory
+// 6/13 Github edit
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HelloWorld2 {
+   List<String> LIST_CITY = new ArrayList<String>;      // add 6/13 Github
    // メインメソッド（プログラムのエントリーポイント）
    public static void main(String[] args) {
        // コンソールに文字列を出力
@@ -16,7 +18,8 @@ public class HelloWorld2 {
        ddd.add("遠藤");
        System.out.println(ddd);
    }
-
+   private addCityList(String city){ // add 6/13 Github
+   }
    @Override
    public String toString() {
     System.out.println("こんにちは、toStringだよ！");
